@@ -1,6 +1,6 @@
 # Jargon Buster
 
-Plain-English explanations of the technical words in this project. The README avoids these words where it can. This file gives the exact words for readers who want them.
+Simple meanings of the technical words in this project. The README avoids these words where it can. This file gives the exact words for readers who want them.
 
 **Agent**
 An AI system that plans steps and uses tools, such as a search, a database, or an API, to do a task.

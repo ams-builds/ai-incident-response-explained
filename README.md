@@ -116,4 +116,4 @@ Changes from the source:
 
 ---
 
-*New words? The [Jargon Buster](JARGON.md) gives plain-English explanations of containment, playbook, blast radius, prompt injection, forensics, and more.*
+*New words? The [Jargon Buster](JARGON.md) gives simple explanations of containment, playbook, blast radius, prompt injection, forensics, and more.*
