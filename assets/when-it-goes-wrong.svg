@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1200 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">When your agent goes wrong</title>
+<desc id="desc">Five phases of AI incident response: prepare, detect and analyze, contain, remove the cause and recover, and learn. Containment is the urgent step. Lessons from each incident go back into the preparation.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#2d3142"/>
+  </marker>
+  <marker id="arrowMuted" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#7a8399"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="1200" height="430" fill="#f5f5f5"/>
+<text x="40" y="44" font-family="'Instrument Serif', Georgia, 'Times New Roman', serif" font-size="28" fill="#2d3142">When Your Agent Goes Wrong</text>
+<text x="40" y="64" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="9" letter-spacing="0.06em" fill="#7a8399">FIVE PHASES. CONTAIN FIRST, THEN FIX, THEN LEARN.</text>
+<rect x="40.0" y="120" width="192" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="48.0" y="128" width="48" height="16" rx="4" fill="#ececec"/>
+<text x="72.0" y="140" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">BEFORE</text>
+<text x="136.0" y="158.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Prepare</text>
+<text x="136.0" y="172.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">list your agents</text>
+<text x="136.0" y="184.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">write the playbook</text>
+<rect x="272.0" y="120" width="192" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="280.0" y="128" width="48" height="16" rx="4" fill="#ececec"/>
+<text x="304.0" y="140" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">DURING</text>
+<text x="368.0" y="158.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Detect</text>
+<text x="368.0" y="172.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">watch the signals</text>
+<text x="368.0" y="184.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">decide how bad</text>
+<line x1="232.0" y1="168.0" x2="268.0" y2="168.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="504.0" y="120" width="192" height="96" rx="6" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1.2"/>
+<rect x="512.0" y="128" width="48" height="16" rx="4" fill="#ececec"/>
+<text x="536.0" y="140" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">DURING</text>
+<text x="600.0" y="158.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Contain</text>
+<text x="600.0" y="172.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">stop the damage</text>
+<text x="600.0" y="184.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">disable tools, roll back</text>
+<line x1="464.0" y1="168.0" x2="500.0" y2="168.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="736.0" y="120" width="192" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="744.0" y="128" width="42" height="16" rx="4" fill="#ececec"/>
+<text x="765.0" y="140" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">AFTER</text>
+<text x="832.0" y="158.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Recover</text>
+<text x="832.0" y="172.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">remove the cause</text>
+<text x="832.0" y="184.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">test, then restore</text>
+<line x1="696.0" y1="168.0" x2="732.0" y2="168.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="968.0" y="120" width="192" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="976.0" y="128" width="42" height="16" rx="4" fill="#ececec"/>
+<text x="997.0" y="140" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">AFTER</text>
+<text x="1064.0" y="158.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Learn</text>
+<text x="1064.0" y="172.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">blameless review</text>
+<text x="1064.0" y="184.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">update the playbook</text>
+<line x1="928.0" y1="168.0" x2="964.0" y2="168.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M1064.0,216 C1064.0,300 136.0,300 136.0,220" fill="none" stroke="#7a8399" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrowMuted)"/>
+<text x="600" y="300" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" letter-spacing="0.06em" fill="#7a8399">lessons go back into the plan</text>
+<line x1="40" y1="340" x2="1160" y2="340" stroke="rgba(45,49,66,0.12)" stroke-width="1"/>
+<text x="40" y="366" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" font-weight="600" letter-spacing="0.1em" fill="#7a8399">WHEN</text>
+<rect x="150" y="354" width="48" height="16" rx="4" fill="#ececec"/>
+<text x="174.0" y="366" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">BEFORE</text>
+<text x="208" y="366" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">before an incident</text>
+<rect x="500" y="354" width="48" height="16" rx="4" fill="#ececec"/>
+<text x="524.0" y="366" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">DURING</text>
+<text x="558" y="366" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">while it happens</text>
+<rect x="850" y="354" width="42" height="16" rx="4" fill="#ececec"/>
+<text x="871.0" y="366" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">AFTER</text>
+<text x="902" y="366" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">when it is stopped</text>
+<rect x="150" y="386" width="24" height="14" rx="3" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1.2"/>
+<text x="186" y="397" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">the most urgent step: stop the damage before you look for the cause</text>
+</svg>

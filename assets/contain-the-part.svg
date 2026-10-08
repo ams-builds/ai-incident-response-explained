@@ -1,0 +1,62 @@
+<svg viewBox="0 0 1200 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Contain the part that failed</title>
+<desc id="desc">When an incident starts, contain the part of the AI system that failed. For a basic model, validate input and filter content. For a model with memory, reset memory and isolate sessions. For retrieval, quarantine the data source. For an agent, disable tools and check least privilege. For an agent with retrieval, combine the steps.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#2d3142"/>
+  </marker>
+  <marker id="arrowMuted" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#7a8399"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="1200" height="470" fill="#f5f5f5"/>
+<text x="40" y="44" font-family="'Instrument Serif', Georgia, 'Times New Roman', serif" font-size="28" fill="#2d3142">Contain The Part That Failed</text>
+<text x="40" y="64" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="9" letter-spacing="0.06em" fill="#7a8399">THE CONTAINMENT STEP DEPENDS ON HOW YOUR SYSTEM IS BUILT.</text>
+<rect x="460.0" y="96" width="280" height="76" rx="6" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1.2"/>
+<text x="600.0" y="124.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Incident Starts</text>
+<text x="600.0" y="138.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">contain first,</text>
+<text x="600.0" y="150.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">investigate second</text>
+<rect x="40.0" y="252" width="200" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="48.0" y="260" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="66.0" y="272" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">PART</text>
+<text x="140.0" y="290.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Basic Model</text>
+<text x="140.0" y="304.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">validate input</text>
+<text x="140.0" y="316.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">filter content</text>
+<line x1="600" y1="172" x2="140.0" y2="248" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="270.0" y="252" width="200" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="278.0" y="260" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="296.0" y="272" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">PART</text>
+<text x="370.0" y="290.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Model + Memory</text>
+<text x="370.0" y="304.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">reset memory</text>
+<text x="370.0" y="316.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">isolate sessions</text>
+<line x1="600" y1="172" x2="370.0" y2="248" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="500.0" y="252" width="200" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="508.0" y="260" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="526.0" y="272" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">PART</text>
+<text x="600.0" y="290.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Retrieval (RAG)</text>
+<text x="600.0" y="304.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">quarantine the source</text>
+<text x="600.0" y="316.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">check what it found</text>
+<line x1="600" y1="172" x2="600.0" y2="248" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="730.0" y="252" width="200" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="738.0" y="260" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="756.0" y="272" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">PART</text>
+<text x="830.0" y="290.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Agent</text>
+<text x="830.0" y="304.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">disable tools</text>
+<text x="830.0" y="316.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">check least privilege</text>
+<line x1="600" y1="172" x2="830.0" y2="248" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<rect x="960.0" y="252" width="200" height="96" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="968.0" y="260" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="986.0" y="272" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">PART</text>
+<text x="1060.0" y="290.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Agent + RAG</text>
+<text x="1060.0" y="304.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">combine the steps</text>
+<text x="1060.0" y="316.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">of RAG and agent</text>
+<line x1="600" y1="172" x2="1060.0" y2="248" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="40" y1="380" x2="1160" y2="380" stroke="rgba(45,49,66,0.12)" stroke-width="1"/>
+<text x="40" y="406" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" font-weight="600" letter-spacing="0.1em" fill="#7a8399">KEY</text>
+<rect x="150" y="394" width="36" height="16" rx="4" fill="#ececec"/>
+<text x="168.0" y="406" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">PART</text>
+<text x="196" y="406" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">a type of AI system, from simple to complex</text>
+<rect x="600" y="394" width="24" height="14" rx="3" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1.2"/>
+<text x="636" y="405" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">the decision point: stop the damage first</text>
+<text x="150" y="436" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#4f5d75">After containment, remove the cause, test, and restore with more monitoring.</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg viewBox="0 0 1200 470" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Record before it breaks</title>
+<desc id="desc">Record six things before an incident: the system prompt, the user prompts, the model and its settings, the raw output, the tool calls, and the logs of connected systems. With these records you can answer the investigation questions after an incident. An AI model can give a different answer each time, so keep the raw output.</desc>
+<defs>
+  <marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#2d3142"/>
+  </marker>
+  <marker id="arrowMuted" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M0,0 L8,4 L0,8 z" fill="#7a8399"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="1200" height="470" fill="#f5f5f5"/>
+<text x="40" y="44" font-family="'Instrument Serif', Georgia, 'Times New Roman', serif" font-size="28" fill="#2d3142">Record Before It Breaks</text>
+<text x="40" y="64" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="9" letter-spacing="0.06em" fill="#7a8399">AN AI MODEL CAN GIVE A DIFFERENT ANSWER EACH TIME. KEEP THE RAW OUTPUT.</text>
+<rect x="40" y="104" width="300" height="64" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="48" y="112" width="30" height="16" rx="4" fill="#ececec"/>
+<text x="63.0" y="124" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">LOG</text>
+<text x="190.0" y="132.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">System Prompt</text>
+<text x="190.0" y="146.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">each version</text>
+<rect x="364" y="104" width="300" height="64" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="372" y="112" width="30" height="16" rx="4" fill="#ececec"/>
+<text x="387.0" y="124" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">LOG</text>
+<text x="514.0" y="132.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">User Prompts</text>
+<text x="514.0" y="146.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">what came in</text>
+<rect x="40" y="188" width="300" height="64" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="48" y="196" width="30" height="16" rx="4" fill="#ececec"/>
+<text x="63.0" y="208" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">LOG</text>
+<text x="190.0" y="216.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Model + Settings</text>
+<text x="190.0" y="230.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">name, version, parameters</text>
+<rect x="364" y="188" width="300" height="64" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="372" y="196" width="30" height="16" rx="4" fill="#ececec"/>
+<text x="387.0" y="208" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">LOG</text>
+<text x="514.0" y="216.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Raw Output</text>
+<text x="514.0" y="230.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">exactly what came out</text>
+<rect x="40" y="272" width="300" height="64" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="48" y="280" width="30" height="16" rx="4" fill="#ececec"/>
+<text x="63.0" y="292" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">LOG</text>
+<text x="190.0" y="300.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Tool Calls</text>
+<text x="190.0" y="314.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">each call and its result</text>
+<rect x="364" y="272" width="300" height="64" rx="6" fill="#ffffff" stroke="#2d3142" stroke-width="1"/>
+<rect x="372" y="280" width="30" height="16" rx="4" fill="#ececec"/>
+<text x="387.0" y="292" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">LOG</text>
+<text x="514.0" y="300.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">Connected Logs</text>
+<text x="514.0" y="314.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">web, database, MCP servers</text>
+<rect x="820" y="104" width="340" height="232" rx="6" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1.2"/>
+<text x="990.0" y="198.9" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#2d3142">You Can Answer</text>
+<text x="990.0" y="212.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">were the guardrails bypassed?</text>
+<text x="990.0" y="224.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">did someone change the prompts?</text>
+<text x="990.0" y="236.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">was the output harmful?</text>
+<text x="990.0" y="248.9" text-anchor="middle" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8.5" fill="#4f5d75">did sensitive data leak?</text>
+<line x1="664" y1="136.0" x2="816" y2="136.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="664" y1="220.0" x2="816" y2="220.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="664" y1="304.0" x2="816" y2="304.0" stroke="#2d3142" stroke-width="1" marker-end="url(#arrow)"/>
+<line x1="40" y1="392" x2="1160" y2="392" stroke="rgba(45,49,66,0.12)" stroke-width="1"/>
+<text x="40" y="418" font-family="'Geist Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace" font-size="8" font-weight="600" letter-spacing="0.1em" fill="#7a8399">KEY</text>
+<rect x="150" y="406" width="30" height="16" rx="4" fill="#ececec"/>
+<text x="165.0" y="418" text-anchor="middle" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="8" font-weight="600" fill="#2d3142">LOG</text>
+<text x="190" y="418" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">a record to keep for each interaction</text>
+<rect x="600" y="406" width="24" height="14" rx="3" fill="rgba(235,108,54,0.08)" stroke="#eb6c36" stroke-width="1.2"/>
+<text x="636" y="417" font-family="Geist, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#2d3142">the questions an investigation must answer</text>
+</svg>
