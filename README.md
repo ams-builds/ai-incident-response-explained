@@ -2,11 +2,11 @@
 
 ## What is it?
 
-This repository is a plain-language guide and an agent skill. Both are based on the AI Incident Response Framework, V1.0, from the Coalition for Secure AI (CoSAI). The framework tells you how to prepare for an AI incident, how to find it, how to stop it, and how to learn from it.
+This repository is a simple guide and a ready-made skill for your AI agent. Both are based on the AI Incident Response Framework, V1.0, from the Coalition for Secure AI (CoSAI). The framework tells you how to prepare for an AI incident, how to find it, how to stop it, and how to learn from it.
 
 ![Five steps in a line: prepare, detect, contain, recover, and learn. Contain is the most urgent step. A dashed arrow goes from learn back to prepare, because the lessons go back into the plan.](assets/when-it-goes-wrong.svg)
 
-*Do you want the technical words in plain English? Refer to the [Jargon Buster](JARGON.md).*
+*Do you want simple meanings for the technical words? Refer to the [Jargon Buster](JARGON.md).*
 
 ## What problem does it solve?
 
@@ -103,7 +103,7 @@ This guide is based on the [AI Incident Response Framework, V1.0](https://github
 
 The source repository uses the Apache License 2.0. Its README states CC BY 4.0 for documentation. The document has its own OASIS copyright notice, which permits derivative works that explain it, if the notice is included. This repository uses the Apache License 2.0 and includes the OASIS notice. Refer to [LICENSE](LICENSE) and [NOTICE](NOTICE).
 
-This is an independent plain-language guide. It is not an official part of CoSAI or OASIS. For the full framework, use the source document.
+This is an independent guide. It is not an official part of CoSAI or OASIS. For the full framework, use the source document.
 
 Changes from the source:
 
